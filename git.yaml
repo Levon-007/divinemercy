@@ -1,3 +1,5 @@
+
+??First uploading
 echo "# divinemercy" >> README.md
 git init
 git add README.md
@@ -9,4 +11,16 @@ git status
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Levon-007/divinemercy.git
+git push -u origin main
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+# # After Update 
+
+git status
+git add .
+git status
+git commit -m "first commit"
 git push -u origin main
