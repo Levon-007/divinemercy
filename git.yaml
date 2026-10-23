@@ -1,5 +1,5 @@
 
-??First uploading
+# # First uploading
 echo "# divinemercy" >> README.md
 git init
 git add README.md
@@ -21,6 +21,15 @@ git config --global user.name "Your Name"
 
 git status
 git add .
+git status
+git commit -m "first commit"
+git push -u origin main
+
+# # downloading exiting updates
+git status
+git stash
+git pull 
+git stash apply
 git status
 git commit -m "first commit"
 git push -u origin main
